@@ -31,6 +31,22 @@
 
 /* Template default CSS
 /*----------------------------------------*/
+.buy-plan{
+	color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: #E1481F;
+    display: inline-block;
+}
+
+.premium-account{
+	color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 1px;
+	background: #007ABB;
+    display: inline-block;
+}
+
 .pdf-file{
 	filter: blur(2px);
   -webkit-filter: blur(2px);
@@ -39,6 +55,7 @@
 /* Modal */
 
 .modal {
+	top: 6%;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -46,10 +63,90 @@
     background-color: #fff;
     color: #000;
 	width: 80%;
-	height: 90%;
+	height: 83%;
     display: none;
     z-index: 10;
 }
+
+  @media screen and (max-width: 992px) {
+	.modal {
+		top: 20%;
+		position: fixed;
+		left: 50%;
+		transform: translateX(-50%);
+		border: 1px solid #ccc;
+		background-color: #fff;
+		color: #000;
+		width: 80%;
+		height: 56%;
+		display: none;
+		z-index: 10;
+	}
+  }
+  
+  @media screen and (max-width: 600px) {
+	.modal {
+		top: 8%;
+		position: fixed;
+		left: 50%;
+		transform: translateX(-50%);
+		border: 1px solid #ccc;
+		background-color: #fff;
+		color: #000;
+		width: 80%;
+		height: 83%;
+		display: none;
+		z-index: 10;
+	}
+  }
+
+  @media screen and (max-width: 400px) and (max-height: 670px) {
+	.modal {
+		top: 4%;
+		position: fixed;
+		left: 50%;
+		transform: translateX(-50%);
+		border: 1px solid #ccc;
+		background-color: #fff;
+		color: #000;
+		width: 80%;
+		height: 95%;
+		display: none;
+		z-index: 10;
+	}
+  }
+
+  @media screen and (width: 1024px) {
+	.modal {
+		top: 30%;
+		position: fixed;
+		left: 50%;
+		transform: translateX(-50%);
+		border: 1px solid #ccc;
+		background-color: #fff;
+		color: #000;
+		width: 80%;
+		height: 42%;
+		display: none;
+		z-index: 10;
+	}
+  }
+
+  @media screen and (max-width: 360px) and (max-height: 660px) {
+	.modal {
+		top: 4%;
+		position: fixed;
+		left: 50%;
+		transform: translateX(-50%);
+		border: 1px solid #ccc;
+		background-color: #fff;
+		color: #000;
+		width: 80%;
+		height: 94%;
+		display: none;
+		z-index: 10;
+	}
+  }
 
 .modal-title {
     font-size: 19px;
@@ -496,8 +593,11 @@ ul, ol {
 /*---------------------
   Search Form
 -----------------------*/
-
 .search-form {
+	z-index: 99;
+	position: relative;
+}
+.search-form-home {
 	margin-top: -180px;
 	z-index: 99;
 	position: relative;
@@ -723,6 +823,7 @@ ul, ol {
 }
 .feature-carousel .col-lg-4 {
 	max-width: 100%;
+	border-radius: 10px;
 }
 .feature-carousel .col-sm-4 {
 	max-width: 100%;
@@ -935,9 +1036,19 @@ ul, ol {
 	color: #ffffff;
 	border-color: #707079;
 }
+
 .top-properties-carousel .single-top-properties .stp-pic img {
 	height: 380px;
+	border-radius: 10px;
 }
+
+@media screen and (max-width: 600px) {
+	.top-properties-carousel .single-top-properties .stp-pic img {
+		height: 280px;
+		border-radius: 10px;
+	}
+}
+
 .top-properties-carousel .single-top-properties .stp-text {
 	padding-left: 40px;
 }
@@ -2030,6 +2141,7 @@ ul, ol {
 }
 .single-blog-item .sb-pic img {
 	min-width: 100%;
+	border-radius: 10px;
 }
 .single-blog-item .sb-text {
 	padding-top: 30px;
