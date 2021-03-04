@@ -301,6 +301,8 @@ ul, ol {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
+	width: auto;
+	height: auto;
 }
 .spad {
 	padding-top: 100px;
