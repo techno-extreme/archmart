@@ -241,7 +241,7 @@ img {
 	max-width: 100%;
 }
 .img-logo {
-	max-width: 30%;
+	max-width: 50%;
 }
 .home-background{
 	/* background-image: url("../img/home/backgroundomc.jpg"); */
@@ -294,7 +294,7 @@ ul, ol {
 }
 .set-bg-first {
 	background-repeat: no-repeat;
-	/* background-size: cover; */
+	 background-size: cover; 
 	background-position: top center;
 }
 .set-bg {
