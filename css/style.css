@@ -1,37 +1,3 @@
-/******************************************************************
-  Template Name: OM City Designs
-  Description: OM City Designs Properties HTML Template
-  Author: colorlib
-  Author URI: https://colorlib.com
-  Version: 1.0
-  Created: Colorlib
-******************************************************************/
-
-/*------------------------------------------------------------------
-[Table of contents]
-
-1.  Template default CSS
-	1.1	Variables
-	1.2	Mixins
-	1.3	Flexbox
-	1.4	Reset
-2.  Helper Css
-3.  Header Section
-4.  Hero Section
-5.  Feature Section
-6.  Top Properties Section
-7.  Agent Section
-8.  Latest News Section
-9.  Contact
-10.  Footer Style
-
--------------------------------------------------------------------*/
-
-/*----------------------------------------*/
-
-/* Template default CSS
-/*----------------------------------------*/
-
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -79,7 +45,7 @@
 	color: #ffffff;
     font-weight: 500;
     letter-spacing: 1px;
-	background: f39127#;
+	background: #f39127;
     display: inline-block;
 }
 
