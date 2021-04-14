@@ -3,6 +3,17 @@
 	flex-wrap: wrap;
 	padding: 0 4px;
   }
+
+  .child {
+	position: absolute;
+	top: 0;
+	left: 320px;
+	top: 160px;
+  }
+
+  .parent {
+	position: relative;
+  }
   
   /* Create four equal columns that sits next to each other */
   .column {
