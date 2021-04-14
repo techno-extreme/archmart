@@ -7,12 +7,18 @@
   .child {
 	position: absolute;
 	top: 0;
-	left: 320px;
-	top: 160px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
   }
 
   .parent {
 	position: relative;
+  }
+
+  .zero-padding{
+	padding-right: 0px;
+	padding-left: 0px;
   }
   
   /* Create four equal columns that sits next to each other */
