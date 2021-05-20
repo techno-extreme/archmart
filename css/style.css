@@ -864,7 +864,7 @@ ol {
 .feature-carousel.owl-carousel .owl-dots button:last-child {
   margin-right: 0;
 }
-.feature-carousel .col-lg-4 {
+.feature-carousel .col-md-6 {
   max-width: 100%;
   border-radius: 10px;
 }
@@ -1329,6 +1329,9 @@ ol {
 }
 .blog-section.latest-blog .section-title {
   margin-bottom: 50px;
+}
+.sb-pic-img {
+  height: auto;
 }
 .blog-section.latest-blog .single-blog-item:hover .sb-pic {
   -webkit-box-shadow: 0px 3px 15px rgba(12, 35, 34, 0.2);
