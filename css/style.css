@@ -864,7 +864,7 @@ ol {
 .feature-carousel.owl-carousel .owl-dots button:last-child {
   margin-right: 0;
 }
-.feature-carousel .col-md-6 {
+.feature-carousel .col-lg-4 .col-md-6 .col-lg-6 {
   max-width: 100%;
   border-radius: 10px;
 }
