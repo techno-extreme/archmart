@@ -7,7 +7,17 @@
   top: 0;
   left: 0;
   background-color: white;
+  /* animation: cursorAnim .5s infinite alternate; */
 }
+
+/* @keyframes cursorAnim{
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(.2);
+  }
+} */
 
 .cursor-lazy{
   width: 50px;
