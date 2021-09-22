@@ -7,19 +7,9 @@
   top: 0;
   left: 0;
   background-color: white;
-   animation: cursorAnim .5s infinite alternate; 
- }
-
-@keyframes cursorAnim{
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(.2);
-  }
 }
 
-/* .cursor-lazy {
+.cursor-lazy{
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -29,8 +19,9 @@
   top: 0;
   left: 0;
   transition: 0.1s ease-out;
-} */
- .row {
+}
+
+.row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
